@@ -17,7 +17,8 @@ Mordred molecular descriptors derived from optimized reactant structures were us
 ```
 ├── notebooks/                     # Google Colab notebooks for each model
 │   ├── feature_extraction
-│       └── descriptors.ipynb
+│       ├── mordred_descriptors.ipynb 
+│       └── mordred_environment.txt
 │   ├── preprocessing
 │       └── data_preprocessing.ipynb
 │   └── models
@@ -40,9 +41,16 @@ Mordred molecular descriptors derived from optimized reactant structures were us
 ```
 
 ## Requirements
-All required Python packages are 
-To install them, run:
+The Mordred descriptor generation workflow was developed using:
+
 ```
-pip install -r requirements.txt
+Python 3.1.1
+NumPy 1.23.5
+Open Babel 3.1.1
+Mordred 1.2.0
+pandas 2.3.1
+RDKit 2023.03.3
+pip 25.2
 ```
+
 ## Citation
