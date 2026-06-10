@@ -16,11 +16,16 @@ Mordred molecular descriptors derived from optimized reactant structures were us
 ## Repository Structure
 ```
 ├── notebooks/                     # Google Colab notebooks for each model
-│   ├── svm.ipynb            
-│   ├── xgboost.ipynb           
-│   ├── rf.ipynb
-│   ├── light_gbm.ipynb           
-│   └── logistic_regression.ipynb           
+│   ├── feature_extraction
+│       └── descriptors.ipynb
+│   ├── preprocessing
+│       └── data_preprocessing.ipynb
+│   └── models
+│       ├── svm.ipynb                
+│       ├── xgboost.ipynb           
+│       ├── rf.ipynb
+│       ├── light_gbm.ipynb           
+│       └── logistic_regression.ipynb           
 │  
 ├── dataset/
 │   ├── raw               
