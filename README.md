@@ -9,7 +9,7 @@
 ## Overview
 This repository contains the datasets, feature generation workflows, machine learning models, and analysis scripts used in the manuscript:
 
-*"Spacer-Driven Control of Mechanochemical Reactivity in Retro Diels-Alder Reactions: Insights from DFT and Machine Learning"*
+***"Spacer-Driven Control of Mechanochemical Reactivity in Retro Diels-Alder Reactions: Insights from DFT and Machine Learning"***
 
 Mordred molecular descriptors derived from optimized reactant structures were used to construct datasets for predicting the feasibility of mechanochemical retro-Diels–Alder reactions. Multiple classification algorithms (Logistic Regression, SVM, Random Forest, XGBoost, and LightGBM) were trained and validated to identify the structural features governing mechanochemical reactivity. The pretrained models provided here enable reaction outcome prediction directly from the `.log` file of an optimized reactant molecule.
 
